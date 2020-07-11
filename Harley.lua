@@ -137,7 +137,7 @@ end
 return var
 end 
 function Get_Rank(user_id,chat_id)
-if tonumber(user_id)  == tonumber(1242929631) then
+if tonumber(user_id)  == tonumber(781179034) then
 var = "مطور السورس"
 elseif DevTshakee(user_id) == true then
 var = "المطور الاساسي"  
