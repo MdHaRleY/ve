@@ -84,8 +84,8 @@ RunTs:write([[
 cd $HOME/ve
 while(true) do
 rm -fr ../.telegram-cli
-screen -S Harley -X kill
-screen -S Harley ./Tshake
+screen -S ve -X kill
+screen -S ve ./Tshake
 done
 ]])
 RunTs:close()

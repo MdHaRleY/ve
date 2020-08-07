@@ -223,6 +223,9 @@ persistent_id_ = file}
 end 
 return infile 
 end
+hamad = io.open("token.txt", "w")
+hamad:write(token)
+hamad:close()
 function RestrictChat(User_id,Chat_id)
 https.request("https://api.telegram.org/bot"..token.."/restrictChatMember?chat_id="..Chat_id.."&user_id="..User_id)
 end
